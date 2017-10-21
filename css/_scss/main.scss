@@ -4,6 +4,8 @@
 @import '_mixins.scss';
 
 // Your CSS/SCSS below this line
+$margins: 25px;
+
 body {
   @include linear-gradient($background-grad-1, $background-grad-2)
   font-family: $body, $body-fb;
@@ -15,9 +17,38 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: $headline-font-size;
+  color: $headline-color;
+  letter-spacing: $letter-spacing;
+  margin: $margins;
+}
+
+h2 {
+  text-transform: uppercase;
+  color: $headline-color;
+  font-size: 35px;
+}
+
+p {
+  color: $headline-color * .85;
+  font-family: $body, $body-fb;
 }
 
 img {
   width: 100%;
   height: auto;
+  margin: 10px;
 }
+
+.album {
+  margin: $margins;
+}
+
+.centered {
+  text-align: center;
+}
+
+.margins {
+  margin: 10px;
+  &:hover{
+    color: $background-grad-1;
+  }}

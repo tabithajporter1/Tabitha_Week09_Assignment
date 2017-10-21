@@ -1,9 +1,8 @@
 // Font Variables
-$headlines: Modak;
-$headline-fb: cursive;
-$body: Quicksand;
+$headlines: Montserrat;
+$headline-fb: sans-serif;
+$body: 'Open Sans';
 $body-fb: sans-serif;
-
-$headline-font-size: 120px;
-
-@import url('https://fonts.googleapis.com/css?family=Modak|Quicksand');
+$headline-font-size: 75px;
+$letter-spacing: 22px;
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100|Open+Sans');

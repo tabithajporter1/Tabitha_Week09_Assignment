@@ -1,19 +1,50 @@
-@import url("https://fonts.googleapis.com/css?family=Modak|Quicksand");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100|Open+Sans");
 body {
-  background: deeppink;
-  background: url("../images/3px-tile.png"), linear-gradient(180deg, deeppink, orangered);
-  font-family: Quicksand, sans-serif;
+  background: #366061;
+  background: url("../images/brick-wall-dark.png"), linear-gradient(180deg, #366061, #626770);
+  font-family: "Open Sans", sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: Modak, cursive;
+  font-family: Montserrat, sans-serif;
 }
 
 h1 {
-  font-size: 120px;
+  font-size: 75px;
+  color: white;
+  letter-spacing: 22px;
+  margin: 25px;
+}
+
+h2 {
+  text-transform: uppercase;
+  color: white;
+  font-size: 35px;
+}
+
+p {
+  color: #d9d9d9;
+  font-family: "Open Sans", sans-serif;
 }
 
 img {
   width: 100%;
   height: auto;
+  margin: 10px;
+}
+
+.album {
+  margin: 25px;
+}
+
+.centered {
+  text-align: center;
+}
+
+.margins {
+  margin: 10px;
+}
+
+.margins:hover {
+  color: #366061;
 }
